@@ -5,7 +5,7 @@ import java.io.IOException;
 
 public class testDataGenerator {
 
-    String loginFile = "../Sample/testData/login.xlsx";
+    String loginFile = "../Selenium_Sample/testData/login.xlsx";
 
     @DataProvider(name = "login")
     public Object[][] getDataLogin() throws IOException {
